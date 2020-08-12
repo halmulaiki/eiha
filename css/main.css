@@ -22,19 +22,19 @@ nav{
   }
     
     /* Slideshow container */
-    .slideshow-container {
-      max-width: 1400px;
+.slideshow-container {
+      max-width: 1000px;
       position: relative;
       margin: auto;
    
      
     }
-    .slideshow-container img{
+.slideshow-container img{
       max-height:700px;
     }
     
     /* Next & previous buttons */
-    .prev, .next {
+.prev, .next {
       position: absolute;
       top: 50%;
       width: auto;
@@ -45,9 +45,9 @@ nav{
       font-size: 18px;
       cursor: pointer;
 
-    }
+}
     
     /* Position the "next button" to the right */
-    .next {
+.next {
       Right: 0;
-    }
+}
