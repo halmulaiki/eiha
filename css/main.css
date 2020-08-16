@@ -1,10 +1,17 @@
 * {
   box-sizing: border-box;
 }
-.body{
- /* font-family: sans-serif; */
- background-color:black;
- 
+.body {
+  /* font-family: sans-serif; */
+  background-color: black;
+}
+a {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 footer {
   font-family: "Rakkas", cursive;
@@ -24,24 +31,21 @@ nav {
 }
 .mySlides {
   display: none;
- 
 }
-
 
 /* Slideshow container */
 .slideshow-container {
-   max-width: 1000px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
-  
-  /* border-image-width: cover; */
 
+  /* border-image-width: cover; */
 }
 .slideshow-container img {
-/* width: 150%; */
- max-height: 75vh;
- object-fit: cover;
- /* max-width: 75%; */
+  /* width: 150%; */
+  max-height: 75vh;
+  object-fit: cover;
+  /* max-width: 75%; */
 }
 
 /* Next & previous buttons */
@@ -62,57 +66,62 @@ nav {
 .next {
   right: 0;
 }
-.center
-{
+.center {
   text-align: center;
   padding-bottom: 65px;
   padding-top: 79px;
   letter-spacing: 0.2px;
   line-height: 26px;
-
 }
-.gold{
-  background-color: #DAA520;
-  color:white;
-
+.gold {
+  background-color: #daa520;
+  color: white;
 }
-.center-p
-{
-padding-left: 15%;
-padding-right: 15%;
-
+.center-p {
+  font-size: 1.5rem;
+  padding-left: 15%;
+  padding-right: 15%;
 }
-.white{
-  background-color:white;
+.white {
+  background-color: white;
 }
 .dot {
-	cursor: pointer;
-	height: 13px;
-	width: 13px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.12s ease;
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.12s ease;
 }
-.active, .dot:hover {
-	background-color: #717171;
+.active,
+.dot:hover {
+  background-color: #717171;
 }
 /* Fading animation */
 .fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 4s;
-	animation-name: fade;
-	animation-duration: 4s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
 }
 @-webkit-keyframes fade {
-  from {opacity: .6} 
-  to {opacity: 1}
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .6} 
-  to {opacity: 1}
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* On smaller screens, decrease text size
@@ -124,8 +133,7 @@ padding-right: 15%;
 
 } */
 
-
-.social{
+.social {
   display: grid;
   grid-template-columns: auto auto;
 }
