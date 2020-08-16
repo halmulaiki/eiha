@@ -141,3 +141,6 @@ nav {
   display: grid;
   grid-template-columns: auto auto;
 }
+.facebook-link-pa {
+  width: 98%;
+}
