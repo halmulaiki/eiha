@@ -4,22 +4,13 @@
 .body {
   font-family: sans-serif;
   background-color: black;
-  text-align: center;
+
 }
-a {
+/* a {
   font-weight: bold;
   font-size: 2.5rem;
 }
-p {
-  /* font-weight: bold; */
-  font-size: 2.4rem;
-  line-height: 1.5;
-}
-h1 {
-  padding-bottom: 2%;
-  font-weight: bold;
-  font-size: 4rem;
-}
+*/
 footer {
   font-family: "Rakkas", cursive;
 }
@@ -75,16 +66,18 @@ nav {
 }
 .center {
   padding: 10% 5% 10% 5%;
+text-align: center;
 }
 .gold {
   background-color: #daa520;
   color: white;
 }
-/* .center-p {
-  font-size: 1.5rem; 
+.center-p {
+  /* font-size: 1.5rem; 
   padding-left: 15%;
-  padding-right: 15%;
-}  */
+  padding-right: 15%; */
+  
+} 
 .white {
   background-color: white;
 }
@@ -127,14 +120,25 @@ nav {
   }
 }
 
-/* On smaller screens, decrease text size
-@media only screen and (min-width: 300px) {
-  .text {font-size: 30px}
-  .center-p{font-size: 30px}
-  .navbar{font-size: 30px}
-  
 
-} */
+@media only screen and (min-width: 900px) {
+
+  p {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+  } 
+  h1 {
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .center-p {
+    font-size: 1.5rem; 
+    padding-left: 15%;
+    padding-right: 15%;
+  } 
+}
 
 .social {
   display: grid;
