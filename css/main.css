@@ -4,18 +4,21 @@
 .body {
   font-family: sans-serif;
   background-color: black;
+  text-align: center;
 }
 a {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 p {
-  font-weight: bold;
-  font-size: 1.4rem;
+  /* font-weight: bold; */
+  font-size: 2.4rem;
+  line-height: 1.5;
 }
 h1 {
+  padding-bottom: 2%;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 footer {
   font-family: "Rakkas", cursive;
@@ -71,21 +74,17 @@ nav {
   right: 0;
 }
 .center {
-  text-align: center;
-  padding-bottom: 65px;
-  padding-top: 79px;
-  letter-spacing: 0.2px;
-  line-height: 26px;
+  padding: 10% 5% 10% 5%;
 }
 .gold {
   background-color: #daa520;
   color: white;
 }
-.center-p {
-  /* font-size: 1.5rem; */
+/* .center-p {
+  font-size: 1.5rem; 
   padding-left: 15%;
   padding-right: 15%;
-}
+}  */
 .white {
   background-color: white;
 }
